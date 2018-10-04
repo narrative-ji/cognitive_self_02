@@ -1,0 +1,31 @@
+/* CSS Styling for index.html */
+
+
+/*body, html {
+	height: 100%;
+}*/
+
+.background {
+  width:1920px;
+  height: 100%;
+  background-image: url("./final-img-01.jpg");
+  /*background-position: center;*/
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+  position:fixed;
+  margin-top: 0;
+  margin-left: 0;
+  background-overflow: visible;
+}
+
+.background{
+	font-family: 'Anton', sans-serif;
+}
+
+.h1 {
+	font: anton;
+	top:20px;
+	left:20px;
+	z-index: 1;
+}
+
