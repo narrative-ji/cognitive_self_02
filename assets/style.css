@@ -5,27 +5,19 @@
 	height: 100%;
 }*/
 
-.background {
-  width:1920px;
-  height: 100%;
-  background-image: url("./final-img-01.jpg");
-  /*background-position: center;*/
-  /*background-repeat: no-repeat;*/
-  background-size: cover;
-  position:fixed;
-  margin-top: 0;
-  margin-left: 0;
-  background-overflow: visible;
-}
-
 .background{
-	font-family: 'Anton', sans-serif;
+  font-family: 'Anton', sans-serif;
+  margin:; 0;
 }
 
-.h1 {
-	font: anton;
-	top:20px;
-	left:20px;
-	z-index: 1;
+h1 {
+  position:relative;
+  display:inline-block;
+  z-index: 2;
 }
 
+.bg {
+  position:absolute;
+  top:0px;
+  z-index: 1;
+}
