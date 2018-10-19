@@ -13,11 +13,73 @@
 h1 {
   position:relative;
   display:inline-block;
-  z-index: 2;
+  font-size: 22pt;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  left-margin:20px;
+  color:black;
+}
+
+h2 {
+  position:relative;
+  display:inline-block;
+  font-size: 22pt;
+  letter-spacing: 1.7px;
+  line-height: 1.2;
+  left-margin:20px;
+  color:white;
 }
 
 .bg {
   position:absolute;
   top:0px;
+  left-margin:0px;
+  width: 100%;
   z-index: 1;
+}
+
+.project-index {
+  position: relative;
+}
+
+.project-index_item{
+	display: inline;
+	position: absolute;
+	list-style: none;
+}
+
+#img_1 {
+	top:15px;
+	left:90px;
+	z-index: 3;
+}
+
+#img_2 {
+	top:450px;
+	left:90px;
+	z-index: 4;
+}
+
+#img_3 {
+	top:805px;
+	left:90px;
+	z-index: 5;
+}
+
+#img_4 {
+	top:1230px;
+	left:90px;
+	z-index: 6;
+}
+
+#img_5 {
+	top:1330px;
+	left:90px;
+	z-index: 7;
+}
+
+#img_6 {
+	top:2440px;
+	left:90px;
+	z-index: 8;
 }
